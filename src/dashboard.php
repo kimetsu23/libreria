@@ -9,7 +9,7 @@ include '../includes/header.php';
 ?>
 
 <div class="hero text-center">
-    <h1><i class="bi bi-book-half me-2"></i>Librería Online</h1>
+    <h1><i class="bi bi-book-half text-primary me-2"></i>Librería Online</h1>
     <p class="lead mb-4">Tu catálogo digital de libros y autores</p>
     <a href="libros.php"  class="btn btn-light btn-lg me-2">
         <i class="bi bi-journals me-1"></i>Ver libros

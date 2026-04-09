@@ -25,8 +25,8 @@ $pageTitle = $pageTitle ?? 'Librería Online';
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
     <div class="container">
  
-        <a class="navbar-brand fw-bold fs-4" href="<?= $baseUrl ?? '' ?>dashboard.php">
-            <i class="bi bi-book-half me-2"></i>Librería Online
+        <a class="navbar-brand fw-bold fs-4" href="...">
+            <i class="bi bi-book-half text-primary me-2"></i>Librería<span class="fw-light">Online</span>
         </a>
  
         <button class="navbar-toggler" type="button"
