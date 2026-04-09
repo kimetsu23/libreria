@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #2563eb;       /* Un azul más vibrante y moderno */
-    --color-dark: #0f172a;          /* Para textos y navbar */
-    --color-light-bg: #f1f5f9;      /* Fondo grisáceo muy suave */
+    --color-primary: #2563eb;   
+    --color-dark: #0f172a;  
+    --color-light-bg: #f1f5f9;
     --color-card-bg: rgba(255, 255, 255, 0.95);
-    --radius-lg: 1rem;              /* Bordes mucho más redondeados */
+    --radius-lg: 1rem;   
     --shadow-sm: 0 4px 6px -1px rgb(0 0 0 / 0.1);
     --shadow-md: 0 10px 15px -3px rgb(0 0 0 / 0.1);
 }
@@ -22,7 +22,7 @@ main {
 
 .navbar {
     background: rgba(255, 255, 255, 0.8) !important;
-    backdrop-filter: blur(12px); /* Efecto cristal */
+    backdrop-filter: blur(12px); 
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(0,0,0,0.05);
     position: sticky;
@@ -62,8 +62,8 @@ main {
 
 .card-autor, .card-libro {
     background: #ffffff;
-    border: 1px solid rgba(0,0,0,0.05); /* Borde muy suave */
-    border-radius: var(--radius-lg); /* Bordes más curvos */
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: var(--radius-lg);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -88,7 +88,7 @@ main {
     width: 85px;
     height: 85px;
     font-size: 2.2rem;
-    border: 4px solid #fff; /* Aro blanco para resaltar */
+    border: 4px solid #fff;
     box-shadow: var(--shadow-md);
 }
 .card-body {
@@ -134,16 +134,15 @@ main {
     border-color: #dee2e6;
 }
 
-/* Badge personalizado */
 .badge.bg-primary {
-    background-color: rgba(37, 99, 235, 0.1) !important; /* Azul suave de fondo */
-    color: var(--color-primary); /* Texto azul fuerte */
+    background-color: rgba(37, 99, 235, 0.1) !important;
+    color: var(--color-primary);
     font-weight: 600;
     padding: 0.5em 1em;
 }
 
 .footer {
-    background-color: #0f172a !important; /* Un tono casi negro muy elegante */
+    background-color: #0f172a !important;
     border-top: 1px solid rgba(255,255,255,0.05);
 }
 
